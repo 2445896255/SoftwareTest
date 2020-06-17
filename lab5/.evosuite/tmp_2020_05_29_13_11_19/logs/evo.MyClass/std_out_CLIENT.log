@@ -1,0 +1,105 @@
+* Starting client
+* Connecting to master process on port 2352
+* Analyzing classpath: 
+  - D:/Java_Project/lab5/out/production/lab5
+  - D:\JDK1.8\jre\lib\charsets.jar
+  - D:\JDK1.8\jre\lib\deploy.jar
+  - D:\JDK1.8\jre\lib\ext\access-bridge-64.jar
+  - D:\JDK1.8\jre\lib\ext\cldrdata.jar
+  - D:\JDK1.8\jre\lib\ext\dnsns.jar
+  - D:\JDK1.8\jre\lib\ext\jaccess.jar
+  - D:\JDK1.8\jre\lib\ext\jfxrt.jar
+  - D:\JDK1.8\jre\lib\ext\localedata.jar
+  - D:\JDK1.8\jre\lib\ext\nashorn.jar
+  - D:\JDK1.8\jre\lib\ext\sunec.jar
+  - D:\JDK1.8\jre\lib\ext\sunjce_provider.jar
+  - D:\JDK1.8\jre\lib\ext\sunmscapi.jar
+  - D:\JDK1.8\jre\lib\ext\sunpkcs11.jar
+  - D:\JDK1.8\jre\lib\ext\zipfs.jar
+  - D:\JDK1.8\jre\lib\javaws.jar
+  - D:\JDK1.8\jre\lib\jce.jar
+  - D:\JDK1.8\jre\lib\jfr.jar
+  - D:\JDK1.8\jre\lib\jfxswt.jar
+  - D:\JDK1.8\jre\lib\jsse.jar
+  - D:\JDK1.8\jre\lib\management-agent.jar
+  - D:\JDK1.8\jre\lib\plugin.jar
+  - D:\JDK1.8\jre\lib\resources.jar
+  - D:\JDK1.8\jre\lib\rt.jar
+  - D:\Java_Project\lab5\out\test\lab5
+  - D:\Java_Project\lab5\out\production\lab5
+  - C:\Users\hd485\.m2\repository\junit\junit\4.12\junit-4.12.jar
+  - C:\Users\hd485\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+  - C:\Users\hd485\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar
+  - C:\Users\hd485\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar
+  - C:\Users\hd485\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar
+* Finished analyzing classpath
+* Generating tests for class evo.MyClass
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Loaded 38 tests from D:\Java_Project\lab5\.evosuite\evosuite-seeds\evo.MyClass.seed
+* Total number of test goals: 
+  - Line 65
+  - Branch 46
+  - Exception 0
+  - MutationFactory 461
+  - Output 33
+  - Method 14
+  - MethodNoException 14
+  - CBranchFitnessFactory 46
+* Using seed 1590729086156
+* Starting evolution
+* Search finished after 95s and 15 generations, 9906 statements, best individual has fitness: 18.142857139131852
+* Writing sequences to pool
+* Minimizing test suite
+[MASTER] 13:13:24.489 [pool-2-thread-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 65
+* Number of covered goals: 65
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 98%
+* Total number of goals: 46
+* Number of covered goals: 45
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 6
+* Number of covered goals: 6
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 98%
+* Total number of goals: 461
+* Number of covered goals: 451
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 79%
+* Total number of goals: 33
+* Number of covered goals: 26
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 14
+* Number of covered goals: 14
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 14
+* Number of covered goals: 14
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 98%
+* Total number of goals: 46
+* Number of covered goals: 45
+* Generated 32 tests with total length 374
+* Resulting test suite's coverage: 97% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 13:13:36.710 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Assertion minimization is taking too long (0.8666428571428572% of time used, but only 3/32 tests minimized), falling back to using all assertions
+[MASTER] 13:13:38.770 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Reached maximum time to generate assertions, aborting assertion generation
+* Resulting test suite's mutation score: 25%
+* Compiling and checking tests
+* Writing JUnit test case 'MyClass_ESTest' to D:\Java_Project\lab5\.evosuite\tmp_2020_05_29_13_11_19\tests
+* Done!
+
